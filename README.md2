@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>calculator</title>
+</head>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: unset;
+}
+body{
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  background-color: yellowgreen;
+}
+.container{
+  margin-top: 5px;
+  justify-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns:repeat(4,50px);
+  grid-template-rows: repeat(4,50px);
+  gap: 10;
+}
+.clock-info{
+  margin-top: 10px;
+}
+#placeholder{
+  text-align: right;
+}
+button{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: yellow;
+  font-size: 30px;
+  color: black;
+}
+h1{
+color: white;
+margin-top: 30px;
+}
+.calculator{
+  border-style: solid;
+  height: 450px;
+  width: 235px;
+  background-color: rgb(0,122,81);
+  border-color: white;
+}
+button:hover{
+  color: blueviolet;
+}
+#text{
+  margin-top: 100px;
+  height: 30px;
+  width: 225px;
+  text-align: left;
+  font-size: 10px;
+  border-color: aqua;
+  gap: 10;
+}
+</style>
+<body>
+  <h1>welcome, calculator</h1>
+  <div class="calculator">
+    <input id="text" placeholder="0">
+  <div class="container">
+    
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+    <button>DEL</button>
+    <button>AC</button>
+    
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button>×</button>
+    <button>÷</button>
+    
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>+</button>
+    <button>-</button>
+    
+    <button>0</button>
+    <button>.</button>
+    <button>×10</button>
+    <button>Ans</button>
+    <button>=</button>
+  
+  </div></br>
+  <div class="clock-info">
+  </div>
+  <script>main.js</script>
+</body>
+</html>
+
 
